@@ -8,41 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d52f603-dcb4-4318-ae84-aab1265f6799" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MinhaCDN/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MinhaCDN/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MinhaCDN/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/Models/MinhaCdnLog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/Services/LogConverterService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/bin/Debug/net7.0/MinhaCDN.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/bin/Debug/net7.0/MinhaCDN.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/bin/Debug/net7.0/MinhaCDN.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/bin/Debug/net7.0/MinhaCDN.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/bin/Debug/net7.0/MinhaCDN.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/MinhaCDN.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/ref/MinhaCDN.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/Debug/net7.0/refint/MinhaCDN.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/MinhaCDN.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/MinhaCDN.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/MinhaCDN.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinhaCDN/obj/rider.project.restore.info" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Arquivo LeiaMe/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Arquivo LeiaMe/.idea/Arquivo LeiaMe.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Arquivo LeiaMe/.idea/modules.xml" afterDir="false" />
@@ -402,6 +367,8 @@
       <change afterPath="$PROJECT_DIR$/../../../VERITY/ControleLancamentos/Testes/obj/rider.project.restore.info" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../VERITY/Docker-compose.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../VERITY/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../teste.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MinhaCDN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MinhaCDN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Chat/Exercicio/Exercicio/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Chat/Exercicio/Exercicio/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Chat/Exercicio/Exercicios/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Chat/Exercicio/Exercicios/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Chat/Exercicio/Exercicios/bin/Debug/net6.0/Exercicios.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Chat/Exercicio/Exercicios/bin/Debug/net6.0/Exercicios.dll" afterDir="false" />
@@ -479,7 +446,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -510,6 +477,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "ReSpellerSettingsId",
     "vue.rearranger.settings.migration": "true"
   },
@@ -565,7 +533,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694476597808</updated>
-      <workItem from="1694476602040" duration="10676000" />
+      <workItem from="1694476602040" duration="11179000" />
     </task>
     <servers />
   </component>

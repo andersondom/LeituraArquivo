@@ -1,36 +1,31 @@
-﻿using System.Net;
-using MinhaCDN;
-using MinhaCDN.Services;
+﻿using MinhaCDN.Services;
+
+namespace MinhaCDN;
 
 class Program
 {
+    [Obsolete("Obsolete")]
     static async Task Main(string[] args)
     {
-        var dadosInformados = "";
-        if (args.Length < 2)
-        {
-            Console.WriteLine("Usage: convert <sourceUrl> <targetPath>");
-            dadosInformados = Console.ReadLine().ToString().Replace("convert ", "");
-        }
-
-        var campos = dadosInformados.Split("> <");
         try
         {
+            var dadosInformados = "";
+            if (args.Length < 2)
+            {
+                Console.WriteLine("Usage: convert <sourceUrl> <targetPath>");
+                dadosInformados = Console.ReadLine()!.Replace("convert ", "");
+            }
+
+            var campos = dadosInformados.Split("> <");
             
-            string sourceUrl = campos[0].Replace("<", "");
-            string targetPath = campos[1].Replace(">", "");
+            var sourceUrl = campos[0].Replace("<", "");
+            var targetPath = campos[1].Replace(">", "");
             
             var logs = await LogConverterService.ReadLogsFromSourceAsync(sourceUrl);
-            
-            var minhaCdn = new MinhaCdnLog();
-            
-            
-            // Converter os logs para o formato Agora
+
             var agoraLogs = LogConverterService.ConvertToAgoraFormat(logs);
 
-            // Escrever os logs convertidos no arquivo de destino
-            File.WriteAllLines(targetPath, agoraLogs);
-            
+            await File.WriteAllLinesAsync(targetPath, agoraLogs);
 
             Console.WriteLine("Conversion completed.");
         }
