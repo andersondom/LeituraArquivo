@@ -1,0 +1,15 @@
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\bin\Debug\net7.0\MinhaCDN.exe
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\bin\Debug\net7.0\MinhaCDN.deps.json
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\bin\Debug\net7.0\MinhaCDN.runtimeconfig.json
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\bin\Debug\net7.0\MinhaCDN.dll
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\bin\Debug\net7.0\MinhaCDN.pdb
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.csproj.AssemblyReference.cache
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.AssemblyInfoInputs.cache
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.AssemblyInfo.cs
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.csproj.CoreCompileInputs.cache
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.dll
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\refint\MinhaCDN.dll
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.pdb
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\MinhaCDN.genruntimeconfig.cache
+C:\Temp\AGILECONTENT\MinhaCDN\MinhaCDN\MinhaCDN\obj\Debug\net7.0\ref\MinhaCDN.dll
