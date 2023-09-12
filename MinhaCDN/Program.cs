@@ -1,4 +1,5 @@
-﻿using MinhaCDN.Services;
+﻿using System.Text.RegularExpressions;
+using MinhaCDN.Services;
 
 namespace MinhaCDN;
 
@@ -13,21 +14,31 @@ class Program
             if (args.Length < 2)
             {
                 Console.WriteLine("Usage: convert <sourceUrl> <targetPath>");
-                dadosInformados = Console.ReadLine()!.Replace("convert ", "");
+                dadosInformados = Console.ReadLine();
             }
+            string pattern = @"^convert\s+\S+\s+\S+$";
 
-            var campos = dadosInformados.Split("> <");
+            bool isMatch = Regex.IsMatch(dadosInformados, pattern);
+
+            if (isMatch)
+            {
+                var campos = dadosInformados!.Replace("convert ", "").Split("> <");
             
-            var sourceUrl = campos[0].Replace("<", "");
-            var targetPath = campos[1].Replace(">", "");
+                var sourceUrl = campos[0].Replace("<", "");
+                var targetPath = campos[1].Replace(">", "");
             
-            var logs = await LogConverterService.ReadLogsFromSourceAsync(sourceUrl);
+                var logs = await LogConverterService.ReadLogsFromSourceAsync(sourceUrl);
 
-            var agoraLogs = LogConverterService.ConvertToAgoraFormat(logs);
+                var agoraLogs = LogConverterService.ConvertToAgoraFormat(logs);
 
-            await File.WriteAllLinesAsync(targetPath, agoraLogs);
-
-            Console.WriteLine("Conversion completed.");
+                await File.WriteAllLinesAsync(targetPath, agoraLogs);
+                
+                Console.WriteLine("Conversion completed.");
+            }
+            else
+            {
+                Console.WriteLine("The string is not in the correct format.");
+            }
         }
         catch (Exception ex)
         {
